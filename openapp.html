@@ -4,19 +4,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-        <title>判断手机是否安装微信</title>
+        <title>判断手机是否安装游戏</title>
     </head>
     <body>
-    <a href="javascript:testApp('weixin://')" class="dl-btn" id="download">打开微信</a> 
+    <a href="javascript:testApp('hibo://')" class="dl-btn" id="download">打开游戏</a> 
     <script>
     function testApp(url) { 
           var timeout, t = 1000, hasApp = true; 
           setTimeout(function () { 
             if (!hasApp) { 
                 //没有安装微信
-                var r=confirm("您没有安装微信，请先安装微信!");
+                var r=confirm("您没有安装游戏，请先安装游戏!");
                 if (r==true){
-                    location.href="http://weixin.qq.com/"
+                    location.href="https://wkmeow.github.io"
                 }
             }else{
                 //安装微信
