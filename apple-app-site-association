@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "5T27X7H98D.com.hibo.ios.debug",
-                "paths": [ "*" ]
+                "paths": [ "/openapp" ]
             }
         ]
     }
